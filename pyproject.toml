@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "stripe_connect"
+version = "0.1.0"
+description = ""
+authors = ["RainrainWu <s0958334772@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.1.4"
+stripe = "^2.55.1"
+python-dotenv = "^0.15.0"
+djangorestframework = "^3.12.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
